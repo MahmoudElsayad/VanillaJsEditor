@@ -1,0 +1,42 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.toolbar{
+    display:inline-block;
+    background-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    width:100vw;
+    padding: 1rem;
+    justify-content: center;
+    align-items:center;
+    margin-top: 0;
+}
+
+.tool-items {
+  margin-left: 1%;
+  padding:0.5%;
+}
+
+
+.center{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+
+.editor{
+    width:95vw;
+    height: 80vh;
+    margin-top: 1%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 0 .1rem .4rem black;
+    border: 1px solid black;
+    overflow-y: auto;
+}
